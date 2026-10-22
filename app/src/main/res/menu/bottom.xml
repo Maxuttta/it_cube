@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/home"
+        android:icon="@drawable/house_blank"
         android:title="Главная"/>
     <item
         android:id="@+id/profile"
+        android:icon="@drawable/user"
         android:title="Профиль"/>
 </menu>

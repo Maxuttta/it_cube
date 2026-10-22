@@ -20,6 +20,10 @@ class MainActivity : AppCompatActivity() {
             loginButton.setOnClickListener {
                 if (login.text.toString() == LOGIN && password.text.toString() == PASSWORD){
                     Log.d("password", "${login.text.toString()} || ${password.text.toString()}")
+
+                    val sharedPref = getSharedPreferences("app", MODE_PRIVATE).edit()
+                    sharedPref.putBoolean("isLogin", true).apply()
+
                     val intent = Intent(this@MainActivity, ChatScreen::class.java)
                     startActivity(intent)
                 }
