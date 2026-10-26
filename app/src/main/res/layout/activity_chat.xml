@@ -8,6 +8,7 @@
     android:background="@color/white"
     android:clickable="true"
     android:elevation="0dp">
+
     <ImageView
         android:id="@+id/subImage"
         android:layout_width="0dp"
