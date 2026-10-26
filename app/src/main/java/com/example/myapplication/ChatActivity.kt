@@ -38,7 +38,6 @@ class ChatActivity : AppCompatActivity() {
         }
     }
 
-
     fun getTimeInMillis(): Long {
         val currentTime = System.currentTimeMillis()
         return currentTime
